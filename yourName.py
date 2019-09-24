@@ -1,8 +1,8 @@
 # Description: An annoying while loop
 
-name = ''
-while name != 'your name':
-    print('Please Type your Name')
+while True:
+    print('Please type your name.')
     name = input()
-print('Thank you')
-
+    if name == 'your name':
+        break
+print('Thank you!')
