@@ -1,4 +1,4 @@
-# Description: An annoying while loop
+# Description: An annoying while loop that is annoying
 
 while True:
     print('Please type your name.')
