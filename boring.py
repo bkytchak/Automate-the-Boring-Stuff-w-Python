@@ -1,5 +1,6 @@
 # Description: Practice from Automate the Boring Stuff
-print('What is your name?')
-name = input()
-if name == 'Alice':
-    print('Hi Alice')
+
+spam = 0
+while spam < 5:
+    print('Hello World')
+    spam = spam + 1
